@@ -1,0 +1,174 @@
+
+#buttons-container {
+  position: absolute;
+  z-index: 2;  
+  width: 90%;
+  margin-left: 2%;
+}
+
+#remote-control-buttons-container{
+  position: absolute;
+  z-index: 2;  
+  width: 100%;
+  display: none;
+}
+
+.remote-control-buttons-container {
+  position: absolute;
+  z-index: 2;  
+  width: 100%;
+}
+
+#full-screen-video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+#lower-video-bar {
+  height: 20vh;
+}
+
+#local-stream-container { 
+  position: relative; 
+  display: inline-block;
+}
+
+.remote-stream-container { 
+  display: inline-block;
+  max-width: 430px;
+}
+
+#remote-streams {
+  height: 100%;
+}
+
+#local-video {
+  position: absolute;
+  z-index: 1;
+  height: 20vh;
+  max-width: 100%;
+}
+
+.remote-video {
+  position: absolute;
+  z-index: 1;
+  height: 100% !important;
+  width: 100%;
+  
+  max-width: 400px;
+}
+
+#mute-overlay {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  color: #d9d9d9;
+  font-size: 2em;
+  padding: 0 0 3px 3px;
+  display: none;
+} 
+
+.mute-overlay {
+  position: absolute;
+  z-index: 2;
+  top: 2px;
+  color: #d9d9d9;
+  font-size: 1.5em;
+  padding: 2px 0 0 2px;
+  display: none;
+}
+
+#no-local-video, .no-video-overlay {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  top: 40%;
+  color: #cccccc;
+  font-size: 2.5em;
+  margin: 0 auto;
+  display: none;
+}
+
+.no-video-overlay {
+  width: 80%;
+}
+
+.stats-btn-container {
+  display: none;
+}
+
+.stream-stat-btn {
+  margin: 1;
+  padding: 2;
+}
+
+#screen-share-btn-container {
+  z-index: 99;
+}
+
+#stats-container {
+  z-index: 99;
+}
+
+#main-video-stats-btn-container {
+  z-index: 99;
+}
+
+#main-stats-btn {
+  display: none;
+}
+
+#main-stream-stats-btn {
+  display: none;
+}
+
+#local-stats-container {
+  z-index: 99;
+}
+
+.remote-stats-container {
+  z-index: 99;
+}
+
+#video-stats-btn {
+  display: none;
+}
+
+#audio-stats-btn {
+  display: none;
+}
+
+#watch-live-overlay #overlay-container {
+  padding: 25px;
+  border-radius: 5px;
+  position:relative;
+  margin: 0 auto;
+  top: 65%;
+  width: 70%;
+}
+#watch-live-overlay button {
+  display: block;
+  /* margin: -50px auto; */
+  color: #0096e6;
+  background: #fff;
+}
+#watch-live-overlay img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#watch-live-overlay button i {
+  padding: 0 10px;
+}
+
+.btn-xlg {
+  padding: 20px 35px;
+  font-size: 30px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}

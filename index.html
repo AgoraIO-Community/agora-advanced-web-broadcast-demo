@@ -1,0 +1,58 @@
+<html lang="en">
+	<head>
+		<title>Agora VR Video Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container-fluid p-0">
+			<div id="main-container">
+				<div id="full-screen-video"></div>
+				<div id="lower-video-bar" class="row fixed-bottom mb-1">
+					<div id="remote-streams-container" class="container col-9 ml-1">
+						<div id="remote-streams" class="row">
+							<!-- insert remote streams dynamically -->
+						</div>
+					</div>
+				</div>
+      </div>
+      <div id="watch-live-overlay">
+        <div id="overlay-container">
+          <div class="col-md text-center">
+						<div class="md-form mb-4">
+              <input type="text" id="form-appid" value="" class="form-control">
+              <label for="form-appid">Agora AppId</label>
+            </div>
+            <div class="md-form mb-4">
+              <input type="text" id="form-token" class="form-control">
+              <label for="form-token">Agora Token</label>
+            </div>
+            <div class="md-form mb-4">
+              <input type="text" id="form-channel" value="" class="form-control">
+              <label for="form-channel">Channel</label>
+            </div>
+            <button id="watch-live-btn" type="button" class="btn btn-block btn-primary btn-xlg">
+              <span>Watch the Live Stream</span>
+            </button>
+          </div>
+        </div>
+      </div>
+		</div>
+	</body>
+	<!-- Agora SDKs -->
+	<script type="text/javascript" src="AgoraRTCSDK-3.3.1.js"></script>
+	<script type="text/javascript" src="agora-rtm-sdk-1.4.1.js"></script>
+	<!-- external css -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- external js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+	<!-- custom js -->
+	<script src="ui.js"></script>
+	<script src="agora-audience-client.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</html>
