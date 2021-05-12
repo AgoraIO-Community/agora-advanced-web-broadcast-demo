@@ -1,5 +1,5 @@
-# agora-advanced-web-viewer
-A demo project using the Agora Web SDK, leveraging advance features like dual stream with stream fallback, multi-host broadcasting.
+# Agora advanced web brodacast demo
+A demo project using the Agora Web RTC and RTM SDKs, leveraging advance RTC features like dual stream with stream fallback, multi-host broadcasting. Web users can mute each other's audio or remove others from the call. Signalling layer is using Agora's RTM SDK.
 
 ## Usage
 Upload the proejct to a remote server or run locally. This project works across all of the latest browsers that support WebRTC, and runs on both mobile and desktop. For best results use Chromium based browser on desktop, and native browser on mobile. 
